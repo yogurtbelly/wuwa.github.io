@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wuthering Waves Fan Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top">Resonance Log</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#resonators">Resonators</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1>Wuthering Waves</h1>
+    <p>An unofficial fan page for the open-world action RPG by Kuro Games.</p>
+  </div>
+  <svg class="wave" viewBox="0 0 2400 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 40 Q150 -10 300 40 T600 40 T900 40 T1200 40 T1500 40 T1800 40 T2100 40 T2400 40"/>
+  </svg>
+</header>
+
+<main class="wrap">
+  <section id="about" class="reveal">
+    <h2>About the game</h2>
+    <p>Wuthering Waves is a free-to-play action RPG released in 2024. You play as the Rover, who wakes up in a world damaged by a disaster called the Lament. Combat is fast, with dodging, parrying and switching between three characters.</p>
+  </section>
+
+  <section id="resonators" class="reveal">
+    <h2>Resonators</h2>
+    <p>Playable characters are called Resonators. Each has an element. Pick one to filter.</p>
+    <div class="filters" id="filters">
+      <button class="active" data-el="all">All</button>
+      <button data-el="Glacio">Glacio</button>
+      <button data-el="Fusion">Fusion</button>
+      <button data-el="Electro">Electro</button>
+      <button data-el="Aero">Aero</button>
+      <button data-el="Spectro">Spectro</button>
+    </div>
+    <div class="cards" id="cards">
+      <div class="card" data-el="Aero"    style="--c:#5ef2b0"><div class="circle"><img src="images/jiyan.png" alt="Jiyan"></div><h3>Jiyan</h3><small>Aero</small></div>
+      <div class="card" data-el="Electro" style="--c:#b57cff"><div class="circle"><img src="images/yinlin.png" alt="Yinlin"></div><h3>Yinlin</h3><small>Electro</small></div>
+      <div class="card" data-el="Spectro" style="--c:#f5e27a"><div class="circle"><img src="images/jinhsi.png" alt="Jinhsi"></div><h3>Jinhsi</h3><small>Spectro</small></div>
+      <div class="card" data-el="Fusion"  style="--c:#ff7a4d"><div class="circle"><img src="images/changli.png" alt="Changli"></div><h3>Changli</h3><small>Fusion</small></div>
+      <div class="card" data-el="Glacio"  style="--c:#7fd6ff"><div class="circle"><img src="images/sanhua.png" alt="Sanhua"></div><h3>Sanhua</h3><small>Glacio</small></div>
+      <div class="card" data-el="Electro" style="--c:#b57cff"><div class="circle"><img src="images/calcharo.png" alt="Calcharo"></div><h3>Calcharo</h3><small>Electro</small></div>
+    </div>
+  </section>
+
+  <section id="faq" class="reveal">
+    <h2>Beginner FAQ</h2>
+    <div class="faq"><button>What are Echoes? <span class="arrow">▾</span></button>
+      <div class="answer"><p>Echoes are spirits of defeated enemies. You equip them to a Resonator for stats and skills.</p></div></div>
+    <div class="faq"><button>What is Waveplate? <span class="arrow">▾</span></button>
+      <div class="answer"><p>Waveplate is a resource spent on boss fights and challenges for rewards. It refills over time.</p></div></div>
+    <div class="faq"><button>What is a Convene? <span class="arrow">▾</span></button>
+      <div class="answer"><p>A Convene is a pull on a banner, the game's gacha system for characters and weapons.</p></div></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Wuthering Waves belongs to Kuro Games.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
